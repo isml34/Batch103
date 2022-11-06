@@ -31,5 +31,16 @@ public class Exceptions01 {
         }
         return result;
     }
+    /*
+        "final", "finally", "finalize" aciklayiniz.
+        1)"final" bir keyword'dur. Variable, Class, ve Method'lar icin kullanilir. ...
+        2)"finally" bir "code block" dur.
+          "try-catch" veya sadece "try" ile kullanilir.
+          "finally" code block icine yazilan code'lar her halukarda calistirilir.
+          Mesela Database ile connection'i kesmek herhalukarda yapilmasi gereken bir fiildir. Bunu "finally" ile yapabiliriz.
+        3)"finalize" bir method'dur. Bu method Java tarafindan data'lar imha edilmeden once cagrilir, bu method data'lari
+          imha edilecek hale getirir ve daha sonra "Garbage Collector" bu data'lari imha eder.
 
+          "finalize" method'unu Java Developer'lar da cagirabilir ama Java kendi bildigini yapar.
+     */
 }
